@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pocketpharma</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./slideStyle.css">
+  <script src="https://kit.fontawesome.com/92c02fd578.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Pocketpharma</h1>
+    <ul>
+      <li><a href="./index.html">Ana Sayfa</a></li>
+      <li><a href="">Hakkında</a></li>
+      <li><a href="">İletişim</a></li>
+    </ul>
+  </header>
+  <div class="container">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="./images/medbox4.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="./images/medBox2.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="./images/medBox3.webp" style="width:100%">
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <ul class="links">
+      <button class="btn" onclick="document.location='./kılavuz/kılavuz.html'">Kullanım Kılavuzu <i style="font-size: 20px;" class="fa-solid fa-volume-high"></i></button>
+      <button class="btn" onclick="document.location=''">Video</button>
+      <button class="btn" onclick="document.location=''">Detaylı Bilgi</button>
+      <button class="btn" onclick="document.location=''">Detaylı Bilgi</button>
+    </ul>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>
