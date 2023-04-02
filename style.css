@@ -4,6 +4,9 @@ body{
   font-family: 'Roboto', sans-serif;
   margin: 0;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header{
@@ -54,7 +57,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 19px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -75,4 +78,20 @@ ul.links{
   flex-direction: column;
   align-items: center;
   align-self: stretch;
+}
+
+footer{
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  height: 50px;
+  font-size: 18px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

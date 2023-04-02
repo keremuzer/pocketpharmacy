@@ -1,13 +1,11 @@
-function increaseFontSize() {
-  var p = document.getElementById("text");
-  var currentFontSize = window.getComputedStyle(p, null).getPropertyValue('font-size');
-  var currentFontSizeNum = parseFloat(currentFontSize);
-  p.style.fontSize = (currentFontSizeNum + 2) + 'px';
+function increaseWidth() {
+  var img = document.getElementById("myImage");
+  var width = parseInt(img.style.width) || img.width;
+  img.style.width = (width + 100) + "px";
 }
 
-function decreaseFontSize() {
-  var p = document.getElementById("text");
-  var currentFontSize = window.getComputedStyle(p, null).getPropertyValue('font-size');
-  var currentFontSizeNum = parseFloat(currentFontSize);
-  p.style.fontSize = (currentFontSizeNum - 2) + 'px';
+function decreaseWidth() {
+  var img = document.getElementById("myImage");
+  var width = parseInt(img.style.width) || img.width;
+  img.style.width = (width - 100) + "px";
 }
