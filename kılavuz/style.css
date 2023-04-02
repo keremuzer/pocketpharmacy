@@ -118,3 +118,11 @@ footer{
   background-color: rgba(0,0,0,0.8);
   color: white;
 }
+
+i{
+  font-size: 30px;
+}
+
+img{
+  width: 800px;
+}
