@@ -4,13 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kullanım Kılavuzu</title>
+  <title>Kullanım Talimatı</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" media="(max-width:700px)" href="./mobile.css">
   <script src="https://kit.fontawesome.com/92c02fd578.js" crossorigin="anonymous"></script>
   <script src="./sizeControl.js"></script>
 </head>
 <body>
+  <nav>
+    <i id="bars" class="fa-solid fa-bars" style="color: #ffffff;"></i>
+    <ul id="navbar">
+      <li><a href="./index.html">Ana Sayfa</a></li>
+      <li><a href="">Hakkında</a></li>
+      <li><a href="">İletişim</a></li>
+    </ul>
+  </nav>
   <header>
     <h1> <a href="../index.html" style="font-size: 24px;">Pocketpharma</a></h1>
     <ul>
@@ -20,17 +28,19 @@
     </ul>
   </header>
   <div class="container">
-    <!--    <div class="buttons">
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <div class="buttons">
       <button class="btn" onclick="decreaseWidth()">A-</button>  
       <button class="btn" onclick="increaseWidth()">A+</button>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
       <i class="fa-solid fa-volume-high"></i>
-    </div>-->
-
-    <embed src="../KULLANMA TALİMATI.pdf" width="800px" height="890px">
-    <!-- <img id="myImage" src="../1.png"> -->
+    </div>
+    <div class="imgContainer">
+      <img id="myImage" src="../images/kullanımTalimatı/1.png">
+      <a id="prev" class="prev">&#10094;</a>
+      <a id="next" class="next">&#10095;</a>
+    </div>
   </div>
   <footer>Copyright © Pocketpharma 2023</footer>
+  <script src="./slide.js"></script>
+  <script src="../navbar.js"></script>
 </body>
 </html>
