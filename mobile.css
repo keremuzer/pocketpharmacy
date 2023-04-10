@@ -109,9 +109,6 @@ footer{
   color: #e5e7eb;
   height: 26px;
   font-size: 16px;
-}
-
-footer{
   position: fixed;
   bottom: 0;
   width: 100%;

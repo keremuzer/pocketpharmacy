@@ -59,7 +59,9 @@ button{
 
 .buttons{
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 16px;
   margin-top: 36px;
 }
@@ -118,8 +120,6 @@ nav{
   display: none;
 }
 }
-  
-
 
 .btn{
   color: rgba(0, 0, 0, 0.8);
@@ -127,8 +127,6 @@ nav{
   background-color: white;
   transition: 0.6s ease;
 }
-
-
 
 i{
   font-size: 30px;

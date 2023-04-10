@@ -17,12 +17,16 @@ header{
   padding-right: 7vw;
 }
 
+#navbar{
+  display: none;
+}
+
 header h1{
   color: #f9faf8;
   font-size: 24px;
 }
 
-ul{
+header ul{
   list-style: none;
   display: flex;
   margin: 0;
@@ -36,8 +40,13 @@ header a{
   font-size: 18px;
 }
 
+.fa-bars{
+  display: none;
+}
+
 video{
   max-width: 1000px;
+  width: 70vw;
   align-self: center;
   margin-top: 30px;
   margin-bottom: auto;
@@ -58,3 +67,10 @@ footer{
   bottom: 0;
   width: 100%;
 }
+
+@media screen and (min-width: 700px) {
+  nav{
+    display: none;
+  }
+  }
+  
